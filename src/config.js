@@ -10,14 +10,14 @@ export const CONFIG = {
 
     // Spaceship
     ship: {
-        scale: 0.1,              // Model scale factor
-        maxSpeed: 2,             // Maximum velocity magnitude
-        acceleration: 0.6,       // How quickly the ship speeds up per key press
+        scale: 0.5,              // Model scale factor
+        maxSpeed: 15,            // Maximum velocity magnitude
+        acceleration: 0.8,       // How quickly the ship speeds up per key press
         friction: 0.92,          // Velocity multiplier per frame (lower = more drag)
         tiltFactor: 0.8,         // How much the ship banks into turns
-        turnSpeed: 0.10,         // How fast the ship rotates to face its heading
-        boostMin: 5,             // Minimum teleport distance when boosting
-        boostMax: 20,            // Maximum teleport distance when boosting
+        turnSpeed: 0.15,         // How fast the ship rotates to face its heading
+        boostMin: 10,            // Minimum teleport distance when boosting
+        boostMax: 30,            // Maximum teleport distance when boosting
         boostCooldown: 1.0,      // Seconds between boosts
         bobbingSpeed: 1.0,       // Speed of the idle hovering sine wave
         bobbingHeight: 0.4,      // Height of the idle hovering sine wave
