@@ -55,16 +55,16 @@ export const CONFIG = {
             name: 'Project Alpha',
             position: { x: 40, z: -40 },
             scale: 15,
-            imagePath: '/assets/artwork/art1.png',
+            imagePath: './assets/artwork/art1.png',
             title: 'The Genesis Station',
             description: 'The primary orbital hub for the Genesis Project. This station serves as the gateway to the outer rim.',
             logs: [
                 {
-                    img: '/assets/artwork/art2.png',
+                    img: './assets/artwork/art2.png',
                     caption: 'Early structural silhouette focusing on the central reactor core.'
                 },
                 {
-                    img: '/assets/artwork/art3.png',
+                    img: './assets/artwork/art3.png',
                     caption: 'Refining the atmospheric lighting and outer docking rings.'
                 }
             ]
@@ -74,7 +74,7 @@ export const CONFIG = {
             name: 'Project Beta',
             position: { x: -50, z: 20 },
             scale: 15,
-            imagePath: '/assets/artwork/art2.png',
+            imagePath: './assets/artwork/art2.png',
             title: 'Nebula Dredger',
             description: 'Concept art for a heavy industrial ship designed to harvest raw materials from active nebulas.',
             logs: []

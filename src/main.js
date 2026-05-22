@@ -42,7 +42,7 @@ const portManager = new PortManager(scene, shipController, CONFIG, renderer, vis
 // --- 4. BAR Asset Loading & Shader ---
 const textureLoader = new THREE.TextureLoader();
 const gltfLoader = new GLTFLoader();
-const ASSET_DIR = '/assets/unit1/';
+const ASSET_DIR = './assets/unit1/';
 
 const colorMap = textureLoader.load(`${ASSET_DIR}arm_color.png`);
 const normalMap = textureLoader.load(`${ASSET_DIR}arm_normal.png`);
