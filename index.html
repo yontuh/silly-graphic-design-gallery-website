@@ -4,30 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Space Lobby</title>
-  <script type="module" crossorigin src="/silly-graphic-design-gallery-website/assets/index-BfmlwztR.js"></script>
-  <link rel="stylesheet" crossorigin href="/silly-graphic-design-gallery-website/assets/index-BHMW2uRM.css">
+  <script type="module" crossorigin src="/silly-graphic-design-gallery-website/assets/index-uiJ8pQR7.js"></script>
+  <link rel="stylesheet" crossorigin href="/silly-graphic-design-gallery-website/assets/index-Cu_nz93w.css">
 </head>
 <body>
-    <div id="ui-layer">
-        <h1 id="transition-text">INITIATING HYPERJUMP...</h1>
-    </div>
-
     <div id="mainframe-ui" class="hidden">
         <div class="terminal-window">
             <div class="terminal-header">
-                <span class="blink">_DATA.STREAM.INCOMING</span>
+                <span id="ui-header-text" class="blink">_DATA.STREAM.INCOMING</span>
                 <button id="close-terminal">[ X ] TERMINATE_LINK</button>
             </div>
             
-            <!-- The scroll area for the vertical feed -->
-            <div id="ui-scroll-area" class="terminal-feed">
-                <!-- Content will be injected here -->
-            </div>
-            
-            <div class="terminal-footer">
-                <span>END_OF_STREAM</span>
+            <div id="ui-dynamic-content">
             </div>
         </div>
+
+        <button class="toggle-info-btn hidden" id="info-toggle">[ i ] TOGGLE INFO</button>
+    </div>
+
+    <div id="lightbox-overlay" class="hidden">
+        <button id="close-lightbox">[ X ] CLOSE</button>
+        <img id="lightbox-img" src="" alt="Fullscreen view">
     </div>
 
 </body>
