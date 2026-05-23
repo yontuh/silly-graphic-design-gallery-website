@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Space Lobby</title>
-  <script type="module" crossorigin src="/silly-graphic-design-gallery-website/assets/index-BNJ0o7He.js"></script>
-  <link rel="stylesheet" crossorigin href="/silly-graphic-design-gallery-website/assets/index-ChKbUvyr.css">
+  <script type="module" crossorigin src="/silly-graphic-design-gallery-website/assets/index-Bu-1nvXW.js"></script>
+  <link rel="stylesheet" crossorigin href="/silly-graphic-design-gallery-website/assets/index-2Z2SgAYB.css">
 </head>
 <body>
     <div id="mainframe-ui" class="hidden">
@@ -25,6 +25,33 @@
     <div id="lightbox-overlay" class="hidden">
         <button id="close-lightbox">[ X ] CLOSE</button>
         <img id="lightbox-img" src="" alt="Fullscreen view">
+    </div>
+
+    <button id="help-btn">[ ? ]</button>
+
+    <div id="help-overlay" class="hidden">
+        <div class="help-panel">
+            <div class="help-header">
+                <button id="close-help">[ x ] close</button>
+            </div>
+            <div class="help-body">
+                <div class="help-section">
+                    <h3>flight controls</h3>
+                    <ul>
+                        <li><kbd>WASD</kbd> or arrow keys — fly</li>
+                        <li>scroll — zoom camera</li>
+                        <li><kbd>R</kbd> — reset visited portals</li>
+                    </ul>
+                </div>
+                <div class="help-section">
+                    <h3>portals</h3>
+                    <ul>
+                        <li>fly close to an image to enter it</li>
+                        <li><kbd>esc</kbd> — close menu</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </div>
 
 </body>
